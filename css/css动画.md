@@ -50,7 +50,14 @@ Chrome/Safari|Firefox|IE|Opera
 见下三、
 
 #### (2)rotate
+参见：
+https://developer.mozilla.org/zh-CN/docs/Web/CSS/transform-function/rotate
 
+CSS的rotate()函数定义了一种将元素围绕一个定点（由transform-origin属性指定）旋转而不变形的转换。指定的角度定义了旋转的量度。若角度为正，则顺时针方向旋转，否则逆时针方向旋转。元素旋转围绕的**定点默认为元素的中心**，但你可以使用 transform-origin 属性设置自己的自定义变换原点。
+
+```s
+transform: rotate(40deg)
+```
 ## 三、translate()
 ### 1.语法
 
