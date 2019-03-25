@@ -60,3 +60,6 @@ typings/
 # next.js build output
 .next
 项目总结
+
+.DS_Store
+css/.DS_Store
